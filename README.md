@@ -1,5 +1,7 @@
 # Laravel Export To CSV natively in MySQL
 
+Supports Laravel 5.2 and above
+
 Many applications require an export to csv functionality. It's implemented in variety of ways, however many of us face a performance bottleneck when the data to be exported is very huge. PHP application may consum lot of memory resources for each export. 
 
 This package is a solution for it where it uses MySQL's SELECT INTO OUTFILE approach. The entire export is performed by MySQL natively. It's extrmely efficient, quick. It eliminates overhead from PHP application utilizing memory to pass selected the query collection for generating CSV. This is extremely handy for systems having large set of rows (like ~1,00,000 row count) of data exported on frequent basis.
