@@ -59,7 +59,7 @@ class CsvExport
     public function downloadSheetAsResponse(){
 
         $this->generateCsv();
-        return response()->download($this->exportFilePath);
+        return response()->download($this->exportFilePath)->deleteFileAfterSend(true);
     }
 
     /**
