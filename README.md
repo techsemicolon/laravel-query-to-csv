@@ -6,7 +6,9 @@ Many applications require an export to csv functionality. It's implemented in va
 
 This package is a solution for it where it uses MySQL's SELECT INTO OUTFILE approach. The entire export is performed by MySQL natively. It's extrmely efficient, quick. It eliminates overhead from PHP application utilizing memory to pass selected the query collection for generating CSV. This is extremely handy for systems having large set of rows (like ~1,00,000 row count) of data exported on frequent basis.
 
-If you worry that you need to pass raw queries for it, do not worry. We have got you covered :). You can pass the query builder and it will do  the rest internally without causing you an extra overhead. 
+If you worry that you need to pass raw queries for it, do not worry. We have got you covered :). You can pass the query builder and it will do  the rest internally without causing you an extra overhead.
+
+PS : It work's for local database server. The features for remove database server will be added shortly.
 
 ## Installation
 
