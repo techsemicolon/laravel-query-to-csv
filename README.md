@@ -8,7 +8,7 @@ This package is a solution for it where it uses MySQL's SELECT INTO OUTFILE appr
 
 If you worry that you need to pass raw queries for it, do not worry. We have got you covered :). You can pass the query builder and it will do  the rest internally without causing you an extra overhead.
 
-PS : It work's for local database server. The features for remove database server will be added shortly.
+PS : It work's for local database server. The features for remote database server will be added shortly.
 
 ## Installation
 
