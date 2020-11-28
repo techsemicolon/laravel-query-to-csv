@@ -9,8 +9,8 @@ return [
     |
     | If a path is not specified in the setExportFile()
     | This folder will be the default inside storage
-    | We have avoided putting anything in public as acessible via web url
-    | Where as storage is safe from direct web accesss
+    | We have avoided putting anything in public as accessible via web url
+    | Where as storage is safe from direct web access
     |
     */
 
